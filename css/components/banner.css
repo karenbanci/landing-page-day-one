@@ -1,0 +1,43 @@
+.banner {
+  background-image: url("https://cdn.pixabay.com/photo/2021/10/18/08/39/pumpkin-6720424_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  width: 100%;
+  height: 200px;
+}
+
+.banner-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.banner h1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  margin: 5px;
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.banner a {
+  color: white;
+  background-color: rgb(99, 214, 99);
+  padding: 11px 21px;
+  border-radius: 50px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.banner a:hover {
+  color: white;
+  background-color: rgb(30, 129, 30);
+  font-weight: bold;
+}
